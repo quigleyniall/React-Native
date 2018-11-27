@@ -35,6 +35,8 @@ local.properties
 npm-debug.log
 yarn-error.log
 
+functions/reactNative.json
+
 # BUCK
 node_modules
 buck-out/

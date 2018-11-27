@@ -6,15 +6,15 @@ export const addPlace = (placeName, location) => {
       name: placeName,
       location: location
     };
-    fetch("https://react-native-pro-1543318711113.firebaseio.com/places.json", {
-      method: "POST",
-      body: JSON.stringify(placeData)
-    })
-      .catch(err => console.error(err))
-      .then(res => res.json())
-      .then(parsedResp => {
-        console.log(parsedResp);
-      });
+    // fetch("https://react-native-pro-1543318711113.firebaseio.com/places.json", {
+    //   method: "POST",
+    //   body: JSON.stringify(placeData)
+    // })
+    //   .catch(err => console.error(err))
+    //   .then(res => res.json())
+    //   .then(parsedResp => {
+    //     console.log(parsedResp);
+    //   });
   };
 };
 
