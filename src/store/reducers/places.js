@@ -15,7 +15,8 @@ const reducer = (state = initialState, action) => {
           image: {
             uri:
               "http://static.asiawebdirect.com/m/phuket/portals/kosamui-com/homepage/beaches/pagePropertiesImage/samui-beaches.jpg"
-          }
+          },
+          location: action.location
         })
       };
     case DELETE_PLACE:
